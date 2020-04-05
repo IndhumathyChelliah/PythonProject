@@ -6,7 +6,6 @@ email_address=os.environ.get("email_user")
 email_password=os.environ.get("email_pass")
 
 with smtplib.SMTP('localhost',1025) as smtp:
-	
 
 	
 
