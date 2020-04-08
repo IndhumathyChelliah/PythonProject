@@ -1,0 +1,25 @@
+Classes - Python
+
+1. attributes
+2. methods
+3. static methods
+4. class methods
+5. class variables
+6. Instance Variables
+7. Instances
+8. method resolution order
+9.Inheritance
+10. super class
+11.isinstance()
+12.issubclass()
+13. special magic dunder methods -(repr,str)
+14.property decorator
+15. setter,getter,deleter
+
+
+1. we can't mutable dtatypes as default keyword arguments
+2. how to convert string to class object using classmethod
+3. __ methods are dunder methods
+4. __add__, __len__
+
+
