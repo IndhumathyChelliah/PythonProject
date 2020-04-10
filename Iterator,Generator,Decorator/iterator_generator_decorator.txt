@@ -1,0 +1,10 @@
+Generators:
+===========
+
+1. yield
+return will terminate the function. yeild wont
+
+2. we can have more number of yield in a function.
+
+3. generator function yeilds an iterator.
+

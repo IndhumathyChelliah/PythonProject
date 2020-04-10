@@ -1,0 +1,40 @@
+Generators:
+===========
+
+1. yield-> yield a value and keep the state. return will return the result. 
+return will terminate the function. yeild wont
+
+2. we can have more number of yield in a function.
+
+3. generator function yeilds an iterator.
+
+4. yield is a special function which makes the function as a generator.
+
+5. adv: Performance and memory usage
+
+If u read ahuge csv file, u may get memory errors. you have to use generator at that time.
+
+generator function produce result only when they needed.
+
+1. generator function returns an iterator. you can iterate through iteretor in following ways:
+
+a) using next()
+b) converting to list using list()
+c) using for loop
+
+disadvantage: takes more time 
+
+generator expressions:
+======================
+list comprehension (change the [ ]to ( )) -> is called generator expression.
+it will return generator object
+
+
+generator:
+
+yield a vlaue.
+save state 
+exit
+
+
+

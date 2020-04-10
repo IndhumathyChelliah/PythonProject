@@ -1,0 +1,55 @@
+decorator -> we can add extra features in the existing function
+
+namespace:
+==========
+
+namespace- > where python stores the variable names
+
+local scope -> varaible declared inside the fucntion
+
+global scope -> variables declared outside the function.
+
+non local scope -> variables declared inside the nested function -> inner function
+
+
+locals()
+globals()
+
+-> both built in function return dictionary
+
+LEGB => local, enclosed . global, built in modules
+
+closures:
+========
+
+1) Object Oreinted solutions without class.
+2)used in decorators
+
+1) u need nested funtion
+2)u need variable in the enclosed space of that function
+3)have to return the nested function without calling it.
+
+First Class Functions:
+=======================
+1. we can assign function to variables
+2. we can return function object
+3. we can pass function as an argument
+
+Decorator:
+=========
+
+Any callable python object that is used to modify a function or a class
+
+
+1. fucntion decorator
+2. class decorator
+
+1. need to take function as parameter
+2. add func to the function
+3. func needs to return another function
+
+1. one decorator can be applied to many functions.
+2.many decorator can be applied to one fucntion.
+3. paramter can be applied to decorator function ( three level nested function )
+
+
