@@ -1,0 +1,9 @@
+Date:2020-04-26
+Author:indhu
+Description:Log file
+
+Created itertools Program 1,2,3
+Program1 -> count,cycle,repeat,zip_longest
+Program2-> combinations,permutations,product,combinations_with_replacements
+Program3 -> islice,chain,compress,takewhile,dropwhile
+Program4-->accumulate,groupby
