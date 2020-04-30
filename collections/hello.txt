@@ -1,0 +1,3 @@
+Hi hello
+I like Python
+I love to lean Python
