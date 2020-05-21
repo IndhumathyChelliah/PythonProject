@@ -1,21 +1,34 @@
-
-#set methods
-
-s1={1,2,3,4,5}
-
-#add-to add one element
-s1.add(6)
+s1={1,2,3}
+#add
+s1.add(4)
 print (s1)
+#clear
+s1.clear()
+print(s1)
+#copy
+s1={1,2,3}
+s2=s1.copy()
+print(s2)
+#difference
+s3={1,2,3,4,5,6}
+s5=s3.difference(s1)
+print(s5)
+#union
+s6=s1.union(s3)
+print(s6)
+#intersection
+s7=s3.intersection(s5)
+print (s7)
+#isdisjoint
+print (s3.isdisjoint(s1))
+#issubset
+print(s3.issubset(s1))
+#issuperset
+print(s3.issuperset(s1))
+#pop-> will delete the first element in the set
+print(s3.pop())
+print (s3)
+#setdiscard- remove the element mentioned. if element is not present, will not throw error
+print (s3.discard(2))
+print (s3)
 
-#update- to add more elements , to update elements from other set
-s1.update([6,7,8])
-print (s1)
-s2=[9,10]
-s1.update([8,9,11],s2)
-print (s1)
-
-#remove -> remove element, if it is not present, throws error
-s1.remove(2)
-#discard -> removes element , if it is not present, dont throw error
-s1.discard(4)
-s1.discard(4)
